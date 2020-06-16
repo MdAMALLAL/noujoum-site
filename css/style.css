@@ -48,12 +48,16 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+
+
+
   @font-face {
       font-family: 'continuum bold';
       font-style: normal;
       font-weight: normal;
       src: local('Continuum Bold'), url('fonts/contb.ttf') format('ttf');
   }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
