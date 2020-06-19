@@ -11511,7 +11511,7 @@ a.text-dark:focus {
 body {
     font-family: "Work Sans", Arial, sans-serif;
     /* background: #fff; */
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.7);
@@ -14144,4 +14144,41 @@ p span {
 
 .h-20 {
     height: auto;
+}
+.mt-mle{
+  margin-top: 24%;
+
+}
+.elh-img{
+  width: 50%;
+  transition: all 0.4s ease;
+  }
+img.elh-img:hover{
+  position:absolute !important;
+  width: 100% !important;
+  top: 0em !important;
+  left: 0em !important;
+  z-index: 1 !important;
+}
+.clown-img{
+  height:13rem;
+  background-size: cover;
+   background-position:center center;
+  transition: all 0.6s ease;
+}
+.clown-img:hover{
+  background-size: auto;
+  height: 14rem;
+  /* margin-top: -2rem; */
+}
+/* .clown-icon:hover{
+  background:#fda638;
+  color: Rgb(207, 51, 136)
+} */
+@media (max-width: 768px) {
+  .sm-order-last {
+      -webkit-box-ordinal-group: 14;
+      -ms-flex-order: 13;
+      order: 13;
+  }
 }
