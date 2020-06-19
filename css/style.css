@@ -14151,7 +14151,9 @@ p span {
 }
 .elh-img{
   width: 50%;
+  position: absolute;
   transition: all 0.4s ease;
+
   }
 img.elh-img:hover{
   position:absolute !important;
@@ -14159,6 +14161,33 @@ img.elh-img:hover{
   top: 0em !important;
   left: 0em !important;
   z-index: 1 !important;
+}
+@media (max-width: 768px) {
+  .sm-order-last {
+      -webkit-box-ordinal-group: 14;
+      -ms-flex-order: 13;
+      order: 13;
+  }
+  .elh-img{
+    width: 80%;
+    position: absolute;
+    transition: all 0.4s ease;
+
+    }
+    .mt-mle {
+    margin-top: 40%;
+}
+}
+@media (max-width: 576px) {
+  .elh-img{
+    width: 80%;
+    position: absolute;
+    transition: all 0.4s ease;
+
+    }
+    .mt-mle {
+    margin-top: 120%;
+}
 }
 .clown-img{
   height:13rem;
@@ -14175,10 +14204,3 @@ img.elh-img:hover{
   background:#fda638;
   color: Rgb(207, 51, 136)
 } */
-@media (max-width: 768px) {
-  .sm-order-last {
-      -webkit-box-ordinal-group: 14;
-      -ms-flex-order: 13;
-      order: 13;
-  }
-}
