@@ -14157,9 +14157,9 @@ p span {
   }
 img.elh-img:hover{
   position:absolute !important;
-  width: 100% !important;
+  /* width: 100% !important;
   top: 0em !important;
-  left: 0em !important;
+  left: 0em !important; */
   z-index: 1 !important;
 }
 @media (max-width: 768px) {
